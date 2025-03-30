@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="https://web-picture.s3.us-east-1.amazonaws.com/myface.png"
-              alt="Ricardo portrait"
+              alt="Tomás portrait"
               width="192"
               height="192"
               quality="95"
