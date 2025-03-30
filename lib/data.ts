@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import opworkImg from "@/public/opawork.png";
+import analyzerImg from "@/public/analyze.png";
+import wordanalyticsImg from "@/public/next1.png";
+import contygoImg from "@/public/contygonext.png";
+import keplanImg from "@/public/keplannext.png";
 
 export const links = [
   {
@@ -24,7 +26,7 @@ export const links = [
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Works",
     hash: "#experience",
   },
   {
@@ -35,51 +37,65 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: " Information Technology Analyst | Universidad ORT",
+    location: "Montevideo",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Present.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "July 2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Administrative Assistant | Transporte Cabarcos",
+    location: "Montevideo",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Administrative Assistant at a transportation company",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full Stack Developer | Bambuy Digitial",
+    location: "Montevideo",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Web Design and Development for my own startup",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Contygo",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on my own startup. Psychologists can efficiently manage patients.",
+    tags: ["React", "TypeScript", "Nodejs", "Tailwind", "MongoDB", "Express"],
+    imageUrl: contygoImg,
   },
   {
-    title: "rmtDev",
+    title: "Keplan",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Designed and developed a scalable ecommerce platform with secure authentication and payment integration.",
+    tags: ["React", "Nodejs", "Tailwind", "MongoDB", "Express"],
+    imageUrl: keplanImg,
   },
   {
-    title: "Word Analytics",
+    title: "Opawork",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "I also worked on developing a platform for freelancers, where I focused on creating an intuitive and user-friendly experience. The platform aims to connect freelancers with clients efficiently, offering features that streamline project management, communication, and payments.",
+    tags: ["React", "Nodejs", "Tailwind", "MongoDB", "Express", "Supabase", "SQL"],
+    imageUrl: opworkImg,
+  },
+  {
+    title: "Files organizer",
+    description:
+      "A public web app for reorganize files from one zip upload.",
+    tags: ["React", "Nodejs", "Tailwind", "MongoDB", "Express"],
+    imageUrl: analyzerImg,
+  },
+  {
+    title: "SaveAnySnippet",
+    description:
+      "Developed an app to save and store code snippets. Currently, it allows users to easily save their favorite pieces of code, with plans to add more features in the future to enhance functionality and usability.",
+    tags: ["NextJs", "Tailwind", "MongoDB"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -90,18 +106,13 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Bootstrap",
+  "Hosting & Cloud",
 ] as const;
