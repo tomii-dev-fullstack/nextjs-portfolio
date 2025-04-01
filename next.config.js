@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    images: {
-      unoptimized: true, // Deshabilita la optimización de imágenes
-    },
-    exportTrailingSlash: true,
-    domains: ['web-picture.s3.us-east-1.amazonaws.com/myface.png', 'allaboutmenextjs.netlify.app'],
+    unoptimized: true, // Deshabilita la optimización de imágenes para compatibilidad con Netlify
+    domains: [
+      "web-picture.s3.us-east-1.amazonaws.com", // Debe ser solo el dominio, sin rutas
+      "allaboutmenextjs.netlify.app"
+    ],
     remotePatterns: [
       {
         protocol: "https",
@@ -13,6 +13,7 @@ const nextConfig = {
       },
     ],
   },
+  trailingSlash: true, // Corregido el nombre de la propiedad
   experimental: {
     serverActions: true,
   },
