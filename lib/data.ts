@@ -37,7 +37,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: " Information Technology Analyst | Universidad ORT",
+    title: "Full Stack Developer | Keplan",
     location: "Montevideo",
     description:
       "Present.",
