@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi! My name is Tomás. I am a Software Developer passionate about building, designing, and innovating scalable apps. My tech stack includes <span className="underline">MERN</span></span>.
+        Hi! I’m Tomás, a Software Developer passionate about building, designing, and innovating scalable applications. I specialize in crafting seamless digital experiences using the MERN stack, combining clean architecture, performance, and intuitive design to create impactful solutions.
 
       </motion.h1>
 

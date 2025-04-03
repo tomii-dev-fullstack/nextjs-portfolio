@@ -20,17 +20,15 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
 
-        I am a full-stack developer with a strong focus on building high-performance, scalable digital solutions. By integrating frontend and backend technologies, I create modern, efficient applications that deliver seamless user experiences.
+        I’m a full-stack developer passionate about building high-performance, scalable digital solutions that seamlessly integrate frontend and backend technologies to deliver exceptional user experiences.
       </p>
 
       <p className="mb-3">
-        I specialize in developing dynamic interfaces with React and TypeScript while building robust backend systems using Node.js, Express, and databases like PostgreSQL and MongoDB. My approach emphasizes clean code, well-structured architectures, and continuous improvement to ensure maintainability and efficiency.
+        With expertise in React and TypeScript for dynamic interfaces and Node.js, Express, PostgreSQL, and MongoDB for robust backend systems, I focus on writing clean code, designing well-structured architectures, and continuously improving to ensure maintainability and efficiency.
       </p>
 
       <p className="mb-3">
-        Every challenge presents an opportunity to develop a solution.
-
-        I am always exploring new ways to innovate and build impactful applications. Let’s collaborate.
+        For me, every challenge is an opportunity to innovate and create meaningful solutions, and I’m always exploring new ways to build impactful applications. Let’s connect and create something great together!
       </p>
 
 
