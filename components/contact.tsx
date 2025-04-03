@@ -63,7 +63,7 @@ export default function Contact() {
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="message"
-          placeholder="Write a message..."
+          placeholder="It doesn't work at the moment."
           required
           maxLength={5000}
         />
